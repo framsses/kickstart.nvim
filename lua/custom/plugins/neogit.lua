@@ -11,4 +11,5 @@ return {
     },
     config = true,
   },
+  vim.keymap.set('n', '<leader>ng', '<CMD>Neogit<CR>', { desc = 'Open [N]eo[G]it' }),
 }
